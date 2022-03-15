@@ -1,6 +1,6 @@
 <template>
   <div class="here">
-      hello world 123
+      hello world
   </div>
 </template>
 
