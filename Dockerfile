@@ -4,7 +4,7 @@ WORKDIR /usr/share/nginx/html
 
 COPY hello.conf /etc/nginx/sites-available
 
-RUN ln -s /etc/nginx/sites-available/hello.conf /etc/nginx/sites-enabled/hello.conf
+RUN ln -snf /etc/nginx/sites-available/hello.conf /etc/nginx/sites-enabled/hello.conf
 
 COPY * /usr/share/nginx/html/
 
