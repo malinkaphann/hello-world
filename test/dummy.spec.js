@@ -3,6 +3,6 @@ import NuxtLogo from '@/components/NuxtLogo.vue'
 
 describe('NuxtLogo', () => {
   test('this is fail', () => {
-    expect(true).toBeTruthy()
+    expect(1).toBe(1);
   })
 });
