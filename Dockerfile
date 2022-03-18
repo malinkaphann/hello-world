@@ -2,7 +2,9 @@ FROM nginx
 
 WORKDIR /usr/share/nginx/html
 
-COPY nginx.conf /etc/nginx/nginx.conf
+COPY hello.conf /etc/nginx/sites-available
+
+RUN ln -s /etc/nginx/sites-available/hello.conf /etc/nginx/sites-enabled/hello.conf
 
 COPY * /usr/share/nginx/html/
 
