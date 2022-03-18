@@ -1,6 +1,6 @@
 <template>
   <div class="here">
-      hello world, this is docker course from APD.
+      This is Friday, hooray!!!!!
   </div>
 </template>
 
